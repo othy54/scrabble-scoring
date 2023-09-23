@@ -24,7 +24,7 @@
             <section class="mt-10">
                 <div class="row">
                     <div class="container">
-                        <div class="flex lg:w-1/2 justify-center gap-4 lg:gap-8">
+                        <div class="flex lg:w-1/2 mx-auto justify-center gap-4 lg:gap-8">
                             <div class="text-center w-1/2 border-b-[1px] border-white border-opacity-50 font-bold text-white text-lg lg:text-2xl tracking-[0.5px]"
                                 v-for="player in players" :key="player.name">
                                 {{ player.name }} </div>
